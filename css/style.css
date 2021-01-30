@@ -164,16 +164,46 @@ p {
 }
 header {
     width: 250px;
-}
+    height: 250px;
+    }
 section {
-    width: 250px;
+    width: 100%;
 }
 .inline-block {
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
-.heroImg {
-    height: 150px;
-    padding: 5px;
+
+h1 {
+    width: 250px;
+    height: 200px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e5e5e5;
+}
+.content p {
+    width: 250px;
+}
+#picofme {
+    display: none;
+}
+.inline-block {
+    background-color: black;
+}
+img {
+    width: 50%;
+}
+#vap {
+    width: 100%;
+}
+footer {
+    background-color: black;
 }
 }
