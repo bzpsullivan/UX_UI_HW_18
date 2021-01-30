@@ -151,6 +151,14 @@ footer {
     align-content: flex-end;
 }
 @media only screen and (max-width: 600px) {
+    #button {
+        padding-left: 100px;
+        }
+.workGrid {
+        width: 100%;
+        padding: 15px;
+        padding-left: 50px;
+    }    
 .content {
     display: grid;
 }
@@ -238,6 +246,7 @@ img {
 }
 #vap {
     width: 100%;
+    padding-left: 50px;
 }
 footer {
     background-color: black;
@@ -251,7 +260,8 @@ footer {
     width: 100%;
 }
 footer li {
-    padding: 5%;
+    padding: 5px;
+    }
 }
 #vap {
     padding-top: 25px;
@@ -264,6 +274,14 @@ footer li {
     text-align: center;
 }
 * {
-    justify-content: center;
+    padding-left: 0 auto;
+}
+#myWorkHeader {
+    width: 100%;
+    padding: 15px;
+}
+#uxSkillsHeader {
+    width: 100%;
+    padding: 15px;
 }
 }
