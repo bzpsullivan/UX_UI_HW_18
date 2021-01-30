@@ -135,6 +135,9 @@ h3 {
     padding-right: 200px;
     text-align: center;
 }
+.mySkills p {
+    text-align: center;
+}
 #nsaImage {
     padding-top: 150px;
 }
