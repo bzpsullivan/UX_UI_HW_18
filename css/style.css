@@ -147,32 +147,33 @@ footer {
     align-content: flex-end;
 }
 @media only screen and (max-width: 600px) {
-    navigation { 
-        width: 100%;
+.flexContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
     }
-    .flexContainer {
-        display: flex;
-        flex-direction: column;
-        }
-    .flexContainer div { 
-        width: 100%;
-        text-align: center;
-    }
-    .mySkills p {
-        width: 50%;
-        text-align: center;
-    }
-h1 {
-    font-size: 32px;
-}
-h3 {
-    font-size: 24px;
-}
-h4 {
-    font-size: 18px;
-}
 p {
-    font-size: 14px;
-    width: 100%;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #e5e5e5;
+}
+header {
+    width: 250px;
+}
+section {
+    width: 250px;
+}
+.inline-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.heroImg {
+    height: 150px;
+    padding: 5px;
 }
 }
